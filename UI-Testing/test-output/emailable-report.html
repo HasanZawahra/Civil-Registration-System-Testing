@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">C:/Users/Hasan.Zawahreh/IdeaProjects/demo/CivilRS</a></td><td class="numi">23</td><td class="numi">23</td><td class="numi">0</td><td class="numi">0</td><td class="numi">29.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">C:/Users/Hasan.Zawahreh/IdeaProjects/demo/CivilRS &#8212; passed</th></tr>
+<tr class="passedodd"><td>AddCivil</td><td><a href="#m1"><b>test_emptyID</b> (X) </a></td><td class="numi">1</td><td>1723097487091</td><td class="numi">570</td></tr>
+<tr class="passedeven"><td>EditCivilInfo</td><td><a href="#m2"><b>test_editCivilInfoSuccessful</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097494134</td><td class="numi">1237</td></tr>
+<tr class="passedodd"><td>AddCivil</td><td><a href="#m3"><b>test_AddCivilSuccessful</b> (addCivil) </a></td><td class="numi">1</td><td>1723097484819</td><td class="numi">430</td></tr>
+<tr class="passedeven"><td>GetCivilInfo</td><td><a href="#m4"><b>test_GetCivilInfo</b>  </a></td><td class="numi">1</td><td>1723097503040</td><td class="numi">147</td></tr>
+<tr class="passedodd"><td rowspan="2">EditCivilInfo</td><td><a href="#m5"><b>test_emptyAge</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097496243</td><td class="numi">640</td></tr><tr class="passedodd"><td><a href="#m6"><b>test_editCivilInfoIdNotFound</b> (X) </a></td><td class="numi">1</td><td>1723097493396</td><td class="numi">120</td></tr>
+<tr class="passedeven"><td>AddCivil</td><td><a href="#m7"><b>test_emptyMobile</b> (X) </a></td><td class="numi">1</td><td>1723097488695</td><td class="numi">339</td></tr>
+<tr class="passedodd"><td>DeleteCivil</td><td><a href="#m8"><b>test_deleteCivilIdNotFound</b>  </a></td><td class="numi">1</td><td>1723097505580</td><td class="numi">172</td></tr>
+<tr class="passedeven"><td rowspan="2">AddCivil</td><td><a href="#m9"><b>test_AddCivilExistingId</b> (X) </a></td><td class="numi">1</td><td>1723097484130</td><td class="numi">453</td></tr><tr class="passedeven"><td><a href="#m10"><b>test_emptyFirstName</b> (X) </a></td><td class="numi">1</td><td>1723097486453</td><td class="numi">330</td></tr>
+<tr class="passedodd"><td>EditCivilInfo</td><td><a href="#m11"><b>test_emptyLastName</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097498858</td><td class="numi">591</td></tr>
+<tr class="passedeven"><td>DeleteCivil</td><td><a href="#m12"><b>test_deleteCivilSuccessful</b> (deleteCivil) </a></td><td class="numi">1</td><td>1723097506326</td><td class="numi">192</td></tr>
+<tr class="passedodd"><td>EditCivilInfo</td><td><a href="#m13"><b>test_editCivilInfoEmptyId</b> (X) </a></td><td class="numi">1</td><td>1723097493097</td><td class="numi">69</td></tr>
+<tr class="passedeven"><td rowspan="2">GetCivilInfo</td><td><a href="#m14"><b>test_GetCivilInfoEmpty</b>  </a></td><td class="numi">1</td><td>1723097503433</td><td class="numi">67</td></tr><tr class="passedeven"><td><a href="#m15"><b>test_CivilNotFound</b>  </a></td><td class="numi">1</td><td>1723097502450</td><td class="numi">273</td></tr>
+<tr class="passedodd"><td>GetAll</td><td><a href="#m16"><b>test_getAll</b>  </a></td><td class="numi">1</td><td>1723097490538</td><td class="numi">134</td></tr>
+<tr class="passedeven"><td>EditCivilInfo</td><td><a href="#m17"><b>test_emptyMobile</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097500161</td><td class="numi">554</td></tr>
+<tr class="passedodd"><td>DeleteCivil</td><td><a href="#m18"><b>test_deleteCivilEmptyId</b>  </a></td><td class="numi">1</td><td>1723097505036</td><td class="numi">253</td></tr>
+<tr class="passedeven"><td>AddCivil</td><td><a href="#m19"><b>test_emptyAll</b> (X) </a></td><td class="numi">1</td><td>1723097486128</td><td class="numi">106</td></tr>
+<tr class="passedodd"><td rowspan="2">EditCivilInfo</td><td><a href="#m20"><b>test_editCivilInfoEmptyFields</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097492333</td><td class="numi">480</td></tr><tr class="passedodd"><td><a href="#m21"><b>test_emptyFirstName</b> (editCivilInfo) </a></td><td class="numi">1</td><td>1723097497583</td><td class="numi">610</td></tr>
+<tr class="passedeven"><td rowspan="2">AddCivil</td><td><a href="#m22"><b>test_emptyAge</b> (X) </a></td><td class="numi">1</td><td>1723097485548</td><td class="numi">352</td></tr><tr class="passedeven"><td><a href="#m23"><b>test_emptyLastName</b> (X) </a></td><td class="numi">1</td><td>1723097488010</td><td class="numi">440</td></tr>
+</table>
+<h1>C:/Users/Hasan.Zawahreh/IdeaProjects/demo/CivilRS</h1>
+<h2 id="m1">AddCivil:test_emptyID</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">DeleteCivil:test_deleteCivilEmptyId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Could not find civil with ID : </td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">GetCivilInfo:test_GetCivilInfo</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>First Name: ahmad
+Last Name: mousa
+ID:  1
+Age:  31
+Mobile Number: 0598541236</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">EditCivilInfo:test_emptyAge</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">EditCivilInfo:test_editCivilInfoIdNotFound</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>Could not find civil with ID : 99</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">AddCivil:test_emptyAll</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">EditCivilInfo:test_editCivilInfoEmptyFields</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">EditCivilInfo:test_emptyFirstName</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">AddCivil:test_emptyMobile</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">DeleteCivil:test_deleteCivilIdNotFound</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>Could not find civil with ID : 99</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">AddCivil:test_emptyAge</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">GetCivilInfo:test_GetCivilInfoEmpty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Could not find civil with ID : </td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">GetCivilInfo:test_CivilNotFound</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>Could not find civil with ID : 99</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">AddCivil:test_AddCivilExistingId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Failed to add used with ID : 1</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">EditCivilInfo:test_editCivilInfoSuccessful</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Civil has been edited successfully</td>
+<td>First Name: smi
+Last Name: ahmaaad
+ID:  99
+Age:  225
+Mobile Number: 12349</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">AddCivil:test_emptyFirstName</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">EditCivilInfo:test_emptyLastName</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">GetAll:test_getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">DeleteCivil:test_deleteCivilSuccessful</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>Civil has been deleted successfully</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">EditCivilInfo:test_editCivilInfoEmptyId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>Could not find civil with ID : </td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">EditCivilInfo:test_emptyMobile</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>smi</td>
+<td>ahmaaad</td>
+<td>225</td>
+<td>12349</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">AddCivil:test_AddCivilSuccessful</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Civil has been added successfully</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">AddCivil:test_emptyLastName</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>99</td>
+<td>sami</td>
+<td>ahmad</td>
+<td>25</td>
+<td>123456789</td>
+<td>Invalid Request</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

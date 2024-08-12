@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Hasan.Zawahreh/IdeaProjects/demo/CivilRS">
+        <classes>
+            <class name="AddCivil"/>
+            <class name="GetAll"/>
+            <class name="EditCivilInfo"/>
+            <class name="GetCivilInfo"/>
+            <class name="DeleteCivil"/>
+        </classes>
+    </test>
+</suite>
